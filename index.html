@@ -1,67 +1,105 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Number Guesser</title>
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <div class="game-container">
-      <header>
-        <h1>Number Guesser!</h1>
-      </header>
-      
-      <div class="rounds">
-        <p class="round-label">Round <span id="round-number">1</span></p>
-        <p class="guess-label">Target Number: <span id="target-number">?</span></p>
-      </div>
 
-      <div class="guessing-area">
-        <div class="guess computer-guess">
-          <div class="guess-title">
-            <p class="guess-label">Computer</p>
-            <p class="score-label">Score: <span id="computer-score">0</span></p>
-          </div>
-          <p id="computer-guess">?</p>
-          <p class="winning-text" id="computer-wins"></p>
-        </div>
-        <div class="guess human-guess">
-          <div class="guess-title">
-            <p class="guess-label">You</p>
-            <p class="score-label">Score: <span id="human-score">0</span></p>
-          </div>
-          <input type="number" id="human-guess" min=0 max=9 value=0>
-          <div class="number-controls">
-            <button class="number-control left" id="subtract" disabled>-</button>
-            <button class="number-control right" id="add">+</button>
-          </div>
-          <button class="button" id="guess">Make a Guess</button>
-        </div>
-      </div>
+<head>
+  <title>Website Style Design</title>
+  <link href="styles.css" type="text/css" rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+</head>
 
-      <div class="next-round-container">
-        <button class="button" id="next-round" disabled>Next Round</button>
-      </div>
+<body>
 
-    </div>
-    
-    <div class="instructions">
-      <div class="instruction">
-        <h3>Step 1</h3>
-        <p>Input a number between 0 and 9</p>
-      </div>
-      <div class="instruction">
-        <h3>Step 2</h3>
-        <p>Click "Make a Guess" to submit your guess and see who won the round.</p>
-      </div>
-      <div class="instruction">
-        <h3>Step 3</h3>
-        <p>Click "Next Round" to play again.</p>
-      </div>
+  <!-- Header section -->
+  <div class="header">
+    <h1>My Website Style Guide</h1>
+  </div>
+
+  <!--colors section-->
+  <div class="container">
+    <h2 id="box-heading"> Colors</h2>
+
+    <div class="box blue">
+      <p class ="name"> Cool Blue </p>
+      <p id="hex">#2d5dcc</p>
     </div>
 
-    <script src="./script.js"></script>
-    <script src="./game.js"></script>
-  </body>
+    <div class="box pink">
+      <p class='name'>Pink</p>
+      <p id="hex">#d957d9</p>
+    </div>
+
+    <div class="box mintgr">
+      <p class='name'>Mint Green</p>
+      <p id="hex">#4fe0b0</p>
+    </div>
+
+    <div class="box beige">
+      <p class='name'>Beige</p>
+      <p id="hex">#efd9ca</p>
+    </div>
+  </div>
+
+  <!--Font section-->
+  <div class="container">
+    <h2 id="box-heading"> Fonts</h2>
+
+    <div class="contain SCP">
+      <p id="Title"><u> Source code Pro </u></p>
+      <p id="normal" > The quick brown fox runs over lazy dog</p>
+      <p id="bold"> The quick brown fox runs over lazy dog</p>
+      <p id="italic"> The quick brown fox runs over lazy dog</p>
+      </div>
+
+
+    <div class="contain NS">
+      <p id="Title"><u> Nunito Sans </u></p>
+      <p id="normal" > The quick brown fox runs over lazy dog</p>
+      <p id="bold"> The quick brown fox runs over lazy dog</p>
+      <p id="italic"> The quick brown fox runs over lazy dog</p>
+    </div>
+
+    <div class="contain poppins">
+      <p id="Title"><u>Poppins </u></p>
+      <p id="normal" > The quick brown fox runs over lazy dog</p>
+      <p id="bold"> The quick brown fox runs over lazy dog</p>
+      <p id="italic"> The quick brown fox runs over lazy dog</p>
+    </div>
+  </div>
+    <!--Font section-->
+    <div class="container">
+      <h2 id="box-heading"> Text Styles</h2>
+
+      <div class="Page">
+      <h1 class="heading"> <bold>H1: Main page heading</bold></h1>
+      <ul class="NS NSSpec">
+        <li>Font-weight: 700(bold)</li>
+        <li>Font-size: 26px</li>
+        <li>Font-family: Nunito Sans</li>
+      </ul>
+      </div>
+
+      <div class="Page">
+      <h2 class="heading"> H2: Subheading</h2>
+      <ul class="poppins popSpec1">
+        <li>Font-weight: 500</li>
+        <li>Font-size: 18px</li>
+        <li>Font-family: Poppins</li>
+      </ul>
+      </div>
+
+      <div class="Page">
+      <h3 class="heading"> P: Paragraph text</h3>
+      <ul class="poppins popSpec2">
+        <li>Font-weight: 400(regular)</li>
+        <li>Font-size: 14px</li>
+        <li>Font-family: Poppins</li>
+      </ul>
+      </div>
+
+
+  </div>
+
+</body>
+
 </html>
