@@ -1,0 +1,130 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Nunito Sans',sans-serif ;
+}
+
+.header{
+  letter-spacing: 2px;
+  margin-top:50px;
+  margin-bottom:50px;
+  font-family:Georgia;
+  font-weight: bold;
+  width:100%;
+}
+
+.container{
+  border:2px solid grey;
+  margin: 10px 5px;
+
+}
+
+#box-heading{
+  letter-spacing: 2px;
+  padding:10px;
+  font-weight:bold;
+}
+
+.box{
+  width:300px;
+  height:50px;
+  color:black;
+  padding: 20px;
+  text-align:center;
+  margin: 20px 10px;
+  display:inline-block;
+}
+
+ .blue{
+  background-color:#2d5dcc;
+  color:white;
+}
+.pink{
+ background-color:#d957d9;
+}
+.mintgr{
+ background-color:#4fe0b0;
+}
+
+.beige{
+ background-color:#efd9ca;
+}
+
+.name{
+  margin-bottom: 10px;
+  text-align:center;
+}
+#hex{
+  text-align: center;
+}
+
+.contain{
+  width:500px;
+  height:150px;
+  color:black;
+  padding:5px;
+  text-align:left;
+  margin: 20px 10px;
+  display:inline-block;
+}
+
+.SCP{
+  font-family: 'Source Code Pro', monospace;
+}
+
+.NS{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.poppins{
+  font-family: 'Poppins', sans-serif;
+}
+#Title{
+  padding:0px 8px 8px 8px;
+  letter-spacing: 4px;
+}
+#normal{
+  padding:8px;
+}
+
+#bold{
+  padding:8px;
+  font-weight:bolder;
+}
+
+#italic{
+  padding:8px;
+  font-style:italic;
+}
+
+.Page{
+  margin: 20px 10px;
+}
+
+.NSSpec{
+  font-weight: 700;
+  font-size:26px;
+  padding-left:30px;
+}
+
+.popSpec1{
+  font-weight: 500;
+  font-size:18px;
+  padding-left:30px;
+}
+
+.popSpec2{
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size:14px;
+  padding-left:30px;
+}
+
+.heading{
+  margin-bottom:10px;
+}
